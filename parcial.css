@@ -1,0 +1,140 @@
+#tblGuardados
+{
+    margin: 3rem auto;
+    width: 50%;
+    background-color: blue;
+    border-collapse: collapse;
+}
+thead
+{
+    box-shadow: 8px 6px 0px 0px rgba(0,0,0,0.75);
+}
+
+th
+{
+    color: white;
+    text-align: center;
+}
+
+td
+{
+    text-align: center;
+    background-color: #F7E798;
+    padding-top: 5px;
+}
+
+
+
+#check4x4
+{
+    position: absolute;
+    left: 10%;
+}
+.contenedor
+{
+    
+    background-color:cornflowerblue;
+    width: 50%;
+    height: 65%;
+    left: 25%;
+    top: 20%;
+    box-shadow: 8px 6px 0px 0px rgba(0,0,0,0.75);
+    position: fixed;
+}
+
+input
+{
+    width: 100%;
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+.btn
+{
+    width: 30%;
+    height: 2.5rem;
+}
+
+#btnGuardar
+{
+    position: absolute;
+    left: 0;
+    background-color: blue;
+    color: white;
+}
+
+#btnCancelar
+{
+    background-color: red;
+    color: white;
+    right: 0;
+    position: absolute;
+}
+
+label
+{
+    letter-spacing: 1px;
+    font-weight: bold; 
+}
+
+h2
+{
+   
+    margin: 3rem auto;
+    width: 50%;
+}
+
+#btnAgregar
+{
+    position: absolute;
+    right: 25%;
+    width: 10%;
+    height: 2.5rem;
+
+}
+
+#btnPromedio
+{
+    position: absolute;
+    right: 35%;
+    width: 10%;
+    height: 2.5rem;
+
+}
+
+.lblError
+{
+    position: absolute;
+    right: 0;
+}
+
+#divCheckboxFiltros
+{
+    margin: 3rem auto;
+    width: 20%;
+    background-color:slateblue;
+    border-collapse: collapse;
+    position: absolute;
+    right: 0%;
+    text-align: center;
+}
+
+#txtPromedio
+{
+    position: absolute;
+    width: 15%;
+    left: 37%;
+    top: 10%;
+}
+
+
+
+select
+{
+    border: 0;
+    width: 30%;
+    height: 2.5rem;
+    background-color: #F7E798;
+}
+

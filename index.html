@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="parcial.css">
+    <script src="./js/vehiculo.js"></script>
+    <script src="./js/auto.js"></script>
+    <script src="./js/camioneta.js"></script>
+    <script src="./js/logica.js"></script>
+    <title>Parcial Lautaro Lezama</title>
+</head>
+<body>
+    <div id="divAgregar" class="contenedor" hidden>
+        <label for="">Id</label>
+        <input type="text" id="txtId" readonly>
+        <label for="">Marca</label>
+        <input type="text" id="txtMarca">
+        <label for="">Modelo</label>
+        <input type="text" id="txtModelo">
+        <label for="">Precio</label>
+        <input type="number" id="txtPrecio">
+        <br><br>
+        <label for="">Tipo</label>
+        <select name="Tipo" id="slcTipo" >
+            <option value="Tipo" selected disabled hidden>Tipo</option>
+            <option value="Auto">Auto</option>
+            <option value="Camioneta">Camioneta</option>
+        </select>
+        <label for="" id="lbl4x4" hidden>Es 4x4?</label >
+        <input type="checkbox" name="" id="check4x4" hidden>
+        <label for="" id="lblCantidadPuertas" hidden>Cantidad de Puertas</label>
+        <input type="number" name="" id="txtCantidadPuertas" hidden> <br> <br>
+        <input type="button" id="btnGuardar" value="Guardar" class="btn">
+        <input type="button" id="btnCancelar" value="Cancelar" class="btn">
+    </div>
+
+    <label class="lblError" for="">No funciona esto :(</label>
+    <div id="divCheckboxFiltros">
+        <label class="lblCheckbox" for="">Id</label>
+        <input type="checkbox" name="" id="checkId" >
+        <label class="lblCheckbox" for="">Marca</label>
+        <input type="checkbox" name="" id="checkMarca" >
+        <label class="lblCheckbox" for="">Modelo</label>
+        <input type="checkbox" name="" id="checkModelo" >
+        <label class="lblCheckbox" for="">Precio</label>
+        <input type="checkbox" name="" id="checkPrecio" >
+    </div>
+    
+
+    <input type="button" id="btnAgregar" value="Agregar">
+    <input type="button" id="btnPromedio" value="Promediar precios">
+    <input type="text" id="txtPromedio" readonly>
+    <h2>Lista de Autos</h2>
+    <table id="tblGuardados">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Marca</th>
+                <th>Modelo</th>
+                <th>Precio</th>
+                <th>Accion</th>
+            </tr>
+        </thead>
+        <tbody id="tblCuerpo">
+
+        </tbody>
+    </table>
+</body>
+</html>
